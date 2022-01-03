@@ -1,0 +1,30 @@
+Common comands used in Git:
+
+*git add:
+The git add command adds a change in the working directory to the staging area. It tells Git that you want to 
+include updates to a particular file in the next commit.
+($ git add R/modified.R man/modified.Rd)
+
+
+*git commit:
+commits the files that have been added and creates a new revision with a log... If you do not add any files, 
+git will not commit anything.
+($ git commit)
+($ git commit -m "Fix such and such")
+($ git commit -a) #this can be used without staging
+
+
+*git push:
+pushes your changes to the remote repository.
+($ git push)
+
+
+*git status:
+The git status command is used to display the state of the repository and staging area. It allows us to see the tracked, untracked files and changes. This command will not show any commit records or information. ... We can check whether the changes and files are tracked or not.
+(git status)
+
+
+*git diff:
+The git diff command shows the differences between the files in two commits or between your current repository and a previous commit.
+(git diff)
+(git diff R/modified.R)
