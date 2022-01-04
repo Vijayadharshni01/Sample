@@ -28,3 +28,5 @@ The git status command is used to display the state of the repository and stagin
 The git diff command shows the differences between the files in two commits or between your current repository and a previous commit.
 (git diff)
 (git diff R/modified.R)
+
+edited
